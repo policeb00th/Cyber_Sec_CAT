@@ -35,5 +35,3 @@ def Row_transpose(key,text):
     for j in ordered:
         final+=j
     print(ordered)
-
-print(vigenere('deceptive','wearediscoveredsaveyourself'))
