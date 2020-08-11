@@ -16,7 +16,7 @@ def Miller_Rabin(number,a):
     for i in range(0,k-1):
         print(f"K={i+1}\tT=T^2 mod n = {T}^2 mod {number}={(T**2)%number}")
         T=(T**2)%number
-        if(T==-1):
+        if(T-number==-1):
             return "Prime"
         elif (T==1):
             return "Composite"
