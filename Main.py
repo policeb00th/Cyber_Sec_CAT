@@ -2,6 +2,7 @@ from Chinese_Remainder import CRT
 from Euclidean_GCD import Extended_Euclidean, Euclidean_GCD
 from Miller_Rabin import Miller_Rabin
 import Ciphers
+from RSA import RSA
 print("You can't escape this terminal, I'm too lazy so just keep pressing Ctrl+C till you exit")
 while(True):
     a = int(input('''Enter your choice 
@@ -12,6 +13,7 @@ while(True):
     5- Caeser Cipher
     6- vigenere cipher
     7- Row Transpose Cipher
+    8- RSA ready to go
     
     Enter your choice: '''))
     if( a==1):
@@ -45,3 +47,5 @@ while(True):
         s=input("Enter string to encode: ")
         k=input("Enter key: ")
         Ciphers.Row_transpose(k,s)
+    elif(a==8):
+        RSA()

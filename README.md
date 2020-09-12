@@ -11,19 +11,25 @@ Things supported rn
 *  Caeser Cipher
 *  vigenere cipher
 *  Row Transpose Cipher
+*  RSA Encryption and Decryption
 
-
-Things I **MIGHT** add: 
-
-* DES for one round
-* Playfair
-* primitive root
-* discrete log
-* AES for one round
-
+Things I will **try to add** add: 
+* El-Gamal
+* Elliptic Cryptography
+* SHA512 related questions
+* Diffie-Hellman thingie
 ## Installation
 
-This library is sufficient i.e it won't need any external modules
+To run RSA, you'll have to install sympy, for which you need to install mpmath first.
+
+Use pip/pip3 according to your python version
+```
+pip3 install mpmath
+```
+Then run
+```
+pip3 install sympy
+```
 
 **Note**: Make sure you install pycipher if you want to use Vigenere's cipher.
 
