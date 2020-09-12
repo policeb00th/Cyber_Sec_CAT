@@ -13,7 +13,7 @@ Things supported rn
 *  Row Transpose Cipher
 *  RSA Encryption and Decryption
 
-Things I will **try to add** add: 
+Things I will **try to add**: 
 * El-Gamal
 * Elliptic Cryptography
 * SHA512 related questions
