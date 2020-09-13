@@ -54,5 +54,5 @@ while(True):
         Ciphers.Row_transpose(k, s)
     elif(a == 8):
         RSA()
-    elif (a==9):
+    elif (a == 9):
         ECC()

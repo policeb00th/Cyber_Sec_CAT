@@ -152,4 +152,3 @@ def ECC():
         print(f"C1={C1},C2={C2}")
         P = ECCDecrypt(C1, C2, d, a, n)
         print(f"Plaintext={P}")
-
