@@ -12,12 +12,13 @@ Things supported rn
 *  vigenere cipher
 *  Row Transpose Cipher
 *  RSA Encryption and Decryption
+*  Elliptic Cryptography
 
 Things I will **try to add**: 
 * El-Gamal
-* Elliptic Cryptography
 * SHA512 related questions
 * Diffie-Hellman thingie
+* Digital Signature thingie
 ## Installation
 
 To run RSA, you'll have to install sympy, for which you need to install mpmath first.
@@ -49,3 +50,4 @@ pip3 install pycipher
 ```
 python3 main.py
 ```
+**Note**: Make if you're using ECC make sure you understand basic variable naming and method of solving because the output is very cluttered and might be difficult to navigate at times
