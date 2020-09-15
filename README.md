@@ -13,9 +13,9 @@ Things supported rn
 *  Row Transpose Cipher
 *  RSA Encryption and Decryption
 *  Elliptic Cryptography
+*  El-Gamal
 
 Things I will **try to add**: 
-* El-Gamal
 * SHA512 related questions
 * Diffie-Hellman thingie
 * Digital Signature thingie
