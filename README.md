@@ -1,5 +1,5 @@
 # Cyber_Sec_CAT
-Tool to aid you with for common CyberSecurity Codes
+Tool to aid you with Cyber
 
 
 
